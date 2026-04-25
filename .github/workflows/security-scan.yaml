@@ -1,0 +1,22 @@
+name: Security scan
+
+on: 
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  static-scan; 
+    name: analisis de seguridad sobre codigo
+    runs-on: ubuntu-lastest
+
+    permissions:
+      contents: read
+      security-events: write
+
+
+    steps: 
+    - name: checkout code
+    uses: actions/checkput@v4
+      
+  
