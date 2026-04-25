@@ -14,8 +14,6 @@ jobs:
       contents: read
       security-events: write
 
-
-    steps:
-
-      name: checkout-code
-      uses: actions/checkput@v4
+    steps:    
+        - name: Checkout-code
+        - uses: actions/checkput@v4
