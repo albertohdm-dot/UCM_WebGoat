@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  static-scan; 
+  static-scan: 
     name: analisis de seguridad sobre codigo
     runs-on: ubuntu-lastest
 
